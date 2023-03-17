@@ -1,0 +1,55 @@
+body {
+  font-family: sans-serif;
+  color: #222;
+  margin: 0;
+}
+ 
+h1, h2, h3 {
+  margin: 0 0 0.35em;
+}
+ 
+h1 {
+  font-size: 40px;
+}
+ 
+h2 {
+  font-size: 28px;
+}
+ 
+h3 {
+  font-size: 20px;
+}
+ 
+h4 {
+  font-size: 15px;
+}
+ 
+p {
+  margin: 0 0 1.15em;
+}
+ 
+.container {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 24px;
+}
+
+.btn {
+  background-color: #F76C6C;
+  border: none;
+  cursor: pointer;
+  color: white;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+  transition: 0.1s ease-in-out;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  background-color: #ff4444;
+}

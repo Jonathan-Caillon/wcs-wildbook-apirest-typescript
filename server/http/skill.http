@@ -1,0 +1,26 @@
+### Voir Skills
+
+GET http://localhost:5000/api/skill
+
+### Ajouter Skill
+
+POST http://localhost:5000/api/skill
+Content-Type: application/json
+
+{
+    "name": "JAVASCRIPT"
+}
+
+### Supprimer Skill
+
+DELETE http://localhost:5000/api/skill/6
+
+### Modifier Skill
+
+PUT http://localhost:5000/api/skill/2
+Content-Type: application/json
+
+{   
+    "name": "JAVASCRIPT"
+}
+

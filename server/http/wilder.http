@@ -1,0 +1,31 @@
+### Voir Wilders
+
+GET http://localhost:5000/api/wilder
+
+### Ajouter Wilder
+
+POST http://localhost:5000/api/wilder
+Content-Type: application/json
+
+{
+    "name": "John",
+    "city": "Paris"
+}
+
+### Supprimer Wilder
+
+DELETE http://localhost:5000/api/wilder/10
+
+### Modifier Wilder
+
+PUT http://localhost:5000/api/wilder/10
+Content-Type: application/json
+
+{   
+    "name": "Jane Doe 2"
+}
+
+### Ajouter Skill Wilder
+
+POST http://localhost:5000/api/wilder/1/skill/1
+
